@@ -975,7 +975,26 @@ useEffect(() => {
           {step === 4 && (
             <div>
               <h2 className="text-2xl font-bold mb-4">Sélection des diagnostics</h2>
-              <p className="text-gray-600 mb-6">Les diagnostics obligatoires sont automatiquement sélectionnés selon vos réponses</p>
+              <p className="text-gray-600 mb-4">Les diagnostics obligatoires sont automatiquement sélectionnés selon vos réponses</p>
+
+{formData.selectedDiagnostics.length > 0 && (
+  <div className="mb-6 bg-emerald-50 border-2 border-emerald-200 rounded-xl p-4">
+    <div className="flex justify-between items-center mb-2">
+      <span className="font-semibold">Total estimé ({formData.selectedDiagnostics.length} diagnostic{formData.selectedDiagnostics.length > 1 ? 's' : ''})</span>
+      <span className="text-2xl font-bold text-emerald-600">{calculateTotal()}€</span>
+    </div>
+    {formData.selectedDiagnostics.length >= 3 && (
+      <p className="text-sm text-emerald-700">
+        ✓ Remise pack incluse ({
+          formData.selectedDiagnostics.length >= 6 ? '40%' :
+          formData.selectedDiagnostics.length === 5 ? '35%' :
+          formData.selectedDiagnostics.length === 4 ? '30%' :
+          '25%'
+        })
+      </p>
+    )}
+  </div>
+)}
               
               {/* Diagnostics obligatoires */}
               {diagnosticsInfo.mandatory.length > 0 && (
@@ -1147,24 +1166,7 @@ useEffect(() => {
                 </div>
               </div>
 
-              {formData.selectedDiagnostics.length > 0 && (
-                <div className="mt-6 bg-emerald-50 border-2 border-emerald-200 rounded-xl p-4">
-                  <div className="flex justify-between items-center mb-2">
-                    <span className="font-semibold">Total estimé ({formData.selectedDiagnostics.length} diagnostic{formData.selectedDiagnostics.length > 1 ? 's' : ''})</span>
-                    <span className="text-2xl font-bold text-emerald-600">{calculateTotal()}€</span>
-                  </div>
-                  {formData.selectedDiagnostics.length >= 3 && (
-                    <p className="text-sm text-emerald-700">
-                      ✓ Remise pack incluse ({
-                        formData.selectedDiagnostics.length >= 6 ? '40%' :
-                        formData.selectedDiagnostics.length === 5 ? '35%' :
-                        formData.selectedDiagnostics.length === 4 ? '30%' :
-                        '25%'
-                      })
-                    </p>
-                  )}
-                </div>
-              )}
+             
             </div>
           )}
 
