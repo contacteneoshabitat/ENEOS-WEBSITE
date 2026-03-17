@@ -15,20 +15,23 @@ const poppins = Poppins({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://www.eneoshabitat.fr"),
   title: 'ENEOS HABITAT - Études Thermiques et Diagnostics Immobiliers',
   description: 'ENEOS HABITAT, votre expert en diagnostics immobiliers et études thermiques à Cadaujac. DPE, Amiante, Plomb, Électricité, Gaz, Termites, ERP, Loi Carrez. Devis gratuit en ligne 24h/24.',
   keywords: 'diagnostic immobilier, DPE, amiante, plomb, électricité, gaz, termites, ERP, loi Carrez, Cadaujac, Bordeaux, Gironde',
   authors: [{ name: 'ENEOS HABITAT' }],
   openGraph: {
+    siteName: "ENEOS HABITAT",
+    locale: "fr_FR",
+    type: "website",
     title: 'ENEOS HABITAT - Études Thermiques et Diagnostics Immobiliers',
     description: 'Votre expert en diagnostics immobiliers et études thermiques à Cadaujac',
-    type: 'website',
   },
   icons: {
     icon: '/logo.png',
     apple: '/logo.png',
   },
-    generator: 'v0.app'
+  generator: 'v0.app'
 }
 
 export default function RootLayout({

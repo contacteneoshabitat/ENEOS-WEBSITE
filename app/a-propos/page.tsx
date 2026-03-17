@@ -1,7 +1,13 @@
+import type { Metadata } from 'next'
 import Image from "next/image"
 import Link from "next/link"
 import { Button } from "@/components/ui/button"
 import { CheckCircle, Award, Users, Target, Leaf, ArrowRight, MapPin, Phone, Mail } from "lucide-react"
+
+export const metadata: Metadata = {
+  title: "À propos | ENEOS HABITAT — Diagnostiqueur certifié Bordeaux",
+  description: "Découvrez ENEOS HABITAT, cabinet de diagnostics immobiliers certifié basé à Cadaujac, intervenant dans toute la Gironde depuis plus de 10 ans."
+}
 
 const values = [
   {

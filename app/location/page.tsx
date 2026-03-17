@@ -1,7 +1,13 @@
+import type { Metadata } from 'next'
 import Image from "next/image"
 import Link from "next/link"
 import { Button } from "@/components/ui/button"
 import { CheckCircle, ArrowRight, Building, AlertTriangle, FileCheck } from "lucide-react"
+
+export const metadata: Metadata = {
+  title: "Diagnostics obligatoires pour louer | ENEOS HABITAT Bordeaux",
+  description: "Diagnostics immobiliers obligatoires pour la mise en location de votre bien en Gironde. DPE, Électricité, Gaz. Devis en ligne."
+}
 
 const obligatoryDiagnostics = [
   {
