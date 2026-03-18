@@ -5,8 +5,8 @@ import { Button } from "@/components/ui/button"
 import { CheckCircle, ArrowRight, MapPin, Clock, Award } from "lucide-react"
 
 export const metadata: Metadata = {
-  title: "Diagnostic immobilier Bergerac | ENEOS HABITAT",
-  description: "ENEOS HABITAT réalise vos diagnostics immobiliers à Bergerac et en Nouvelle-Aquitaine. DPE, Amiante, Plomb, Électricité. Devis gratuit sous 24h."
+  title: "Diagnostic immobilier Bergerac | ENEOS HABITAT — Gironde",
+  description: "ENEOS HABITAT intervient à Bergerac pour tous vos diagnostics immobiliers obligatoires. DPE, Amiante, Plomb, Électricité, Gaz. Intervention sous 48h. Devis gratuit en ligne."
 }
 
 const services = [

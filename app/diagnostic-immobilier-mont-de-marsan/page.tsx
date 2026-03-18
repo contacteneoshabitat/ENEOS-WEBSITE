@@ -5,8 +5,8 @@ import { Button } from "@/components/ui/button"
 import { CheckCircle, ArrowRight, MapPin } from "lucide-react"
 
 export const metadata: Metadata = {
-  title: "Diagnostic immobilier Mont-de-Marsan | ENEOS HABITAT",
-  description: "ENEOS HABITAT réalise vos diagnostics immobiliers à Mont-de-Marsan et dans les Landes. DPE, Amiante, Plomb, Électricité. Devis gratuit sous 24h."
+  title: "Diagnostic immobilier Mont-de-Marsan | ENEOS HABITAT — Gironde",
+  description: "ENEOS HABITAT intervient à Mont-de-Marsan pour tous vos diagnostics immobiliers obligatoires. DPE, Amiante, Plomb, Électricité, Gaz. Intervention sous 48h. Devis gratuit en ligne."
 }
 
 export default function MontDeMarSanPage() {

@@ -5,8 +5,8 @@ import { Button } from "@/components/ui/button"
 import { CheckCircle, ArrowRight, MapPin, Clock, Award } from "lucide-react"
 
 export const metadata: Metadata = {
-  title: "Diagnostic immobilier Pessac | ENEOS HABITAT",
-  description: "ENEOS HABITAT réalise vos diagnostics immobiliers à Pessac et en Gironde. DPE, Amiante, Plomb, Électricité. Devis gratuit sous 24h."
+  title: "Diagnostic immobilier Pessac | ENEOS HABITAT — Gironde",
+  description: "ENEOS HABITAT intervient à Pessac pour tous vos diagnostics immobiliers obligatoires. DPE, Amiante, Plomb, Électricité, Gaz. Intervention sous 48h. Devis gratuit en ligne."
 }
 
 const services = [
@@ -142,6 +142,18 @@ export default function PessacPage() {
                 </div>
               </div>
             </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Market Section */}
+      <section className="py-16 bg-white">
+        <div className="container mx-auto px-4">
+          <h2 className="text-3xl font-bold mb-8">Le marché immobilier à Pessac</h2>
+          <div className="max-w-4xl prose prose-lg">
+            <p className="text-muted-foreground leading-relaxed">
+              Pessac est une commune dynamique de la métropole bordelaise, offrant une variété importante de biens immobiliers. Le parc résidentiel pessacais comprend des maisons individuelles modernes, des villas de prestige, ainsi que des appartements en copropriété. La ville attire de nombreux acquéreurs et locataires à la recherche d&apos;un équilibre entre proximité bordelaise et qualité de vie. Les biens anciens représentent une part significative du marché, ce qui requiert des diagnostics minutieux pour l&apos;amiante et le plomb. Les nouveaux quartiers proposent des constructions aux normes actuelles, avec des enjeux de performance énergétique cruciaux. Pour les biens en copropriété, le diagnostic Loi Carrez est un prérequis incontournable. ENEOS HABITAT, positionné stratégiquement à proximité, maîtrise tous ces éléments et répond aux attentes spécifiques du marché pessacais avec réactivité et professionnalisme.
+            </p>
           </div>
         </div>
       </section>

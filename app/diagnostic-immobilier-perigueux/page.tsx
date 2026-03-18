@@ -5,8 +5,8 @@ import { Button } from "@/components/ui/button"
 import { CheckCircle, ArrowRight, MapPin } from "lucide-react"
 
 export const metadata: Metadata = {
-  title: "Diagnostic immobilier Périgueux | ENEOS HABITAT",
-  description: "ENEOS HABITAT réalise vos diagnostics immobiliers à Périgueux et en Dordogne. DPE, Amiante, Plomb, Électricité. Devis gratuit sous 24h."
+  title: "Diagnostic immobilier Périgueux | ENEOS HABITAT — Gironde",
+  description: "ENEOS HABITAT intervient à Périgueux pour tous vos diagnostics immobiliers obligatoires. DPE, Amiante, Plomb, Électricité, Gaz. Intervention sous 48h. Devis gratuit en ligne."
 }
 
 export default function PerigueuxPage() {

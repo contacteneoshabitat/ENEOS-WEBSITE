@@ -5,8 +5,8 @@ import { Button } from "@/components/ui/button"
 import { CheckCircle, ArrowRight, MapPin } from "lucide-react"
 
 export const metadata: Metadata = {
-  title: "Diagnostic immobilier Saintes | ENEOS HABITAT",
-  description: "ENEOS HABITAT réalise vos diagnostics immobiliers à Saintes et en Charente-Maritime. DPE, Amiante, Plomb, Électricité. Devis gratuit sous 24h."
+  title: "Diagnostic immobilier Saintes | ENEOS HABITAT — Gironde",
+  description: "ENEOS HABITAT intervient à Saintes pour tous vos diagnostics immobiliers obligatoires. DPE, Amiante, Plomb, Électricité, Gaz. Intervention sous 48h. Devis gratuit en ligne."
 }
 
 export default function SaintesPage() {
