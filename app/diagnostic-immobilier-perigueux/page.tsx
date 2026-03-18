@@ -118,6 +118,18 @@ export default function PerigueuxPage() {
         </div>
       </section>
 
+      {/* Market Section */}
+      <section className="py-16 bg-white">
+        <div className="container mx-auto px-4">
+          <h2 className="text-3xl font-bold mb-8">Le marché immobilier à Périgueux</h2>
+          <div className="max-w-4xl prose prose-lg">
+            <p className="text-muted-foreground leading-relaxed">
+              Périgueux est le cœur économique et culturel du Périgord, capitale historique de la Dordogne. Le marché immobilier périguourdin combine patrimoine médiéval préservé et propriétés modernes. Les acquisitions immobilières ciblent maisons de caractère avec jardins, appartements de centre-ville, et exploitations agricoles. Les biens anciens, nombreux, requièrent des diagnostics amiante et plomb approfondis. La performance énergétique est un critère croissant pour les résidences principales et locations touristiques. ENEOS HABITAT intervient régulièrement à Périgueux, maîtrisant les spécificités du marché périgourdin et apportant expertise sur les enjeux immobiliers du patrimoine historique de cette région dynamique.
+            </p>
+          </div>
+        </div>
+      </section>
+
       {/* Final CTA */}
       <section className="py-16 px-4 md:px-6 lg:px-8 bg-gradient-to-r from-emerald-600 to-emerald-700">
         <div className="max-w-4xl mx-auto text-center space-y-8">

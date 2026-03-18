@@ -118,6 +118,18 @@ export default function SaintesPage() {
         </div>
       </section>
 
+      {/* Market Section */}
+      <section className="py-16 bg-white">
+        <div className="container mx-auto px-4">
+          <h2 className="text-3xl font-bold mb-8">Le marché immobilier à Saintes</h2>
+          <div className="max-w-4xl prose prose-lg">
+            <p className="text-muted-foreground leading-relaxed">
+              Saintes est un centre historique important de Charente-Maritime, riche en patrimoine antique et médiéval. Le marché immobilier saintongeais allie bâtiments classés au prestige rare avec propriétés modernes en zone périphérique. Les acquisitions ciblent residences principales, investissements locatifs touristiques, et propriétés agricoles. L&apos;importance du patrimoine ancien requiert diagnostics amiante et plomb rigoureux sur de nombreux biens. La proximity avec côtes tourisme génère demande résidentielle secondaire stable. Les enjeux énergétiques croissants imposent évaluations DPE precises. ENEOS HABITAT intervient régulièrement à Saintes, maîtrisant les spécificités immobilières de cette région historique majeure.
+            </p>
+          </div>
+        </div>
+      </section>
+
       {/* Final CTA */}
       <section className="py-16 px-4 md:px-6 lg:px-8 bg-gradient-to-r from-emerald-600 to-emerald-700">
         <div className="max-w-4xl mx-auto text-center space-y-8">

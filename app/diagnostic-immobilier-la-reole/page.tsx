@@ -184,6 +184,18 @@ export default function LaReolePage() {
         </div>
       </div>
 
+      {/* Market Section */}
+      <section className="py-16 bg-white">
+        <div className="container mx-auto px-4">
+          <h2 className="text-3xl font-bold mb-8">Le marché immobilier à La Réole</h2>
+          <div className="max-w-4xl prose prose-lg">
+            <p className="text-muted-foreground leading-relaxed">
+              La Réole est commune historique de Gironde, située dans confluence vallée Garonne-Dropt. Le marché immobilier réolois allie propriétés riveraines prestigieuses avec maisons de campagne, demeureurs vignobles.  Région viticole importante genère demande stable propriétés avec potentiel agritourisme ou oenologique. Les bâtiments anciens nombreux requièrent diagnostics amiante plomb rigoureux. Les enjeux énergétiques croissants imposent DPE précise. ENEOS HABITAT intervient régulièrement La Réole, maîtrisant enjeux immobiliers region viticole Garonne.
+            </p>
+          </div>
+        </div>
+      </section>
+
       {/* Final CTA */}
       <div className="bg-[#2d8a5e] text-white py-20">
         <div className="container mx-auto px-4 max-w-3xl text-center">

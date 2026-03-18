@@ -146,6 +146,18 @@ export default function LibournePage() {
         </div>
       </section>
 
+      {/* Market Section */}
+      <section className="py-16 bg-white">
+        <div className="container mx-auto px-4">
+          <h2 className="text-3xl font-bold mb-8">Le marché immobilier à Libourne</h2>
+          <div className="max-w-4xl prose prose-lg">
+            <p className="text-muted-foreground leading-relaxed">
+              Libourne est un centre économique important en Gironde, situé stratégiquement sur la confluence de la Dordogne et de l&apos;Isle. Le marché immobilier libournais est diversifié, comprenant des maisons de plain-pied, des propriétés agricoles convertibles, des appartements résidentiels, et des bâtiments commerciaux. La ville jouit d&apos;une riche histoire architecturale avec des constructions datant de plusieurs siècles, nécessitant des diagnostics amiante et plomb approfondis. Le secteur viticole environnant génère une demande stable de locations saisonnières et permanentes. Les diagnostics électricité et gaz sont particulièrement importants compte tenu de la diversité des structures bâties. ENEOS HABITAT intervient efficacement à Libourne, apportant expertise sur les enjeux énergétiques et structurels spécifiques à cette région dynamique du patrimoine immobilier girondien.
+            </p>
+          </div>
+        </div>
+      </section>
+
       {/* CTA */}
       <section className="py-16 bg-[#2d8a5e]">
         <div className="container mx-auto px-4 text-center">

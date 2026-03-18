@@ -184,6 +184,18 @@ export default function RochefortPage() {
         </div>
       </div>
 
+      {/* Market Section */}
+      <section className="py-16 bg-white">
+        <div className="container mx-auto px-4">
+          <h2 className="text-3xl font-bold mb-8">Le marché immobilier à Rochefort</h2>
+          <div className="max-w-4xl prose prose-lg">
+            <p className="text-muted-foreground leading-relaxed">
+              Rochefort est cité historique de Charente-Maritime, patrimoine maritime prestigieux en Nouvelle-Aquitaine. Le marché immobilier rochefortais conjugue maisons riveraines, propriétés architecturales remarquables, et résidences contemporaines. La destination touristique culturelle majeure genère demande stable résidences secondaires et locations patrimoniales. Les constructions anciennes d&apos;époque coloniale requièrent diagnostics amiante et plomb scrupuleux. Les structures historiques classées imposent précautions énergétiques spéciales respectueuses patrimoine. ENEOS HABITAT intervient régulièrement à Rochefort, maîtrisant spécificités marché patrimoine maritime et enjeux immobiliers région côtière Charente-Maritime.
+            </p>
+          </div>
+        </div>
+      </section>
+
       {/* Final CTA */}
       <div className="bg-[#2d8a5e] text-white py-20">
         <div className="container mx-auto px-4 max-w-3xl text-center">

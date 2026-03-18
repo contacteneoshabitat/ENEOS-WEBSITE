@@ -118,6 +118,18 @@ export default function MontDeMarSanPage() {
         </div>
       </section>
 
+      {/* Market Section */}
+      <section className="py-16 bg-white">
+        <div className="container mx-auto px-4">
+          <h2 className="text-3xl font-bold mb-8">Le marché immobilier à Mont-de-Marsan</h2>
+          <div className="max-w-4xl prose prose-lg">
+            <p className="text-muted-foreground leading-relaxed">
+              Mont-de-Marsan est capitale administrative des Landes, centre économique dynamique du sud-ouest. Le marché immobilier mont-marsan allie maisons landaises traditionnelles avec constructions modernes périphériques, appartements urbains, et propriétés agricoles. La région forestière importante genère activité économique diversifiée et demande résidentielle stable. Les propriétés anciennes en zone centrale requièrent diagnostics amiante et plomb complets. Les enjeux énergétiques croissants imposent évaluations DPE précises pour conformité. ENEOS HABITAT intervient régulièrement à Mont-de-Marsan, maîtrisant caractéristiques immobilières et enjeux énergétiques spécifiques à région forestière du sud-ouest girondien.
+            </p>
+          </div>
+        </div>
+      </section>
+
       {/* Final CTA */}
       <section className="py-16 px-4 md:px-6 lg:px-8 bg-gradient-to-r from-emerald-600 to-emerald-700">
         <div className="max-w-4xl mx-auto text-center space-y-8">

@@ -118,6 +118,18 @@ export default function LangonPage() {
         </div>
       </section>
 
+      {/* Market Section */}
+      <section className="py-16 bg-white">
+        <div className="container mx-auto px-4">
+          <h2 className="text-3xl font-bold mb-8">Le marché immobilier à Langon</h2>
+          <div className="max-w-4xl prose prose-lg">
+            <p className="text-muted-foreground leading-relaxed">
+              Langon est une commune dynamique du sud-Gironde, stratégiquement positionnée à la confluence de cours d&apos;eau importants. Le marché immobilier langonnais propose maisons familiales modernes, propriétés agricoles et touristiques, ainsi qu&apos;appartements résidentiels variés. La région viticole environnante (Sauternes, Graves) genère demande stable de propriétés avec potentiel touristique. Les bâtiments anciens requièrent diagnostics amiante et plomb complets. Les petits commerces locaux offrent environnement d&apos;affaires stable. ENEOS HABITAT intervient efficacement à Langon, apportant expertise sur enjeux immobiliers et energétiques spécifiques à cette région commerciale et agricole du sud-ouest girondien.
+            </p>
+          </div>
+        </div>
+      </section>
+
       {/* Final CTA */}
       <section className="py-16 px-4 md:px-6 lg:px-8 bg-gradient-to-r from-emerald-600 to-emerald-700">
         <div className="max-w-4xl mx-auto text-center space-y-8">

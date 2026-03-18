@@ -184,6 +184,18 @@ export default function BazasPage() {
         </div>
       </div>
 
+      {/* Market Section */}
+      <section className="py-16 bg-white">
+        <div className="container mx-auto px-4">
+          <h2 className="text-3xl font-bold mb-8">Le marché immobilier à Bazas</h2>
+          <div className="max-w-4xl prose prose-lg">
+            <p className="text-muted-foreground leading-relaxed">
+              Bazas est commune rurale Gironde, centre historique patrimoine remarquable. Marché immobilier bazassais allie maisons character traditionnel propriétés agricoles, demeurers campagne. Region rurale genère demande moderate residences permanentes investissements agricoles. Bâtiments anciens patrimoniaux requièrent diagnostics amiante plomb approfondis respect patrimoine. Enjeux énergétiques croissants imposent compliance DPE stricte. ENEOS HABITAT intervient Bazas, apportant expertise immobiliere region patrimoine rural girondienne.
+            </p>
+          </div>
+        </div>
+      </section>
+
       {/* Final CTA */}
       <div className="bg-[#2d8a5e] text-white py-20">
         <div className="container mx-auto px-4 max-w-3xl text-center">

@@ -118,6 +118,18 @@ export default function DaxPage() {
         </div>
       </section>
 
+      {/* Market Section */}
+      <section className="py-16 bg-white">
+        <div className="container mx-auto px-4">
+          <h2 className="text-3xl font-bold mb-8">Le marché immobilier à Dax</h2>
+          <div className="max-w-4xl prose prose-lg">
+            <p className="text-muted-foreground leading-relaxed">
+              Dax est une station thermale réputée des Landes, attirant visiteurs et résidents en quête de bien-être. Le marché immobilier daxais se caractérise par des villas de prestige, des hôtels particuliers, et des propriétés touristiques. La ville bénéficie d'une économie touristique stable générant demande résidentielle soutenue. Les bâtiments anciens ayant bénéficié de réhabilitations modernes coexistent avec constructions récentes. Le diagnostic thermique et la performance énergétique sont critères importants pour cette clientèle attentive à l&apos;efficacité énergétique. ENEOS HABITAT intervient à Dax avec connaissance fine du marché thermal et touristique local, offrant diagnostics complets adaptés aux attentes des acquéreurs et investisseurs régionaux.
+            </p>
+          </div>
+        </div>
+      </section>
+
       {/* Final CTA */}
       <section className="py-16 px-4 md:px-6 lg:px-8 bg-gradient-to-r from-emerald-600 to-emerald-700">
         <div className="max-w-4xl mx-auto text-center space-y-8">

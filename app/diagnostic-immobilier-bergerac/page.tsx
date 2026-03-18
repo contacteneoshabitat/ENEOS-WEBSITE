@@ -184,6 +184,18 @@ export default function BergeracPage() {
         </div>
       </div>
 
+      {/* Market Section */}
+      <section className="py-16 bg-white">
+        <div className="container mx-auto px-4">
+          <h2 className="text-3xl font-bold mb-8">Le marché immobilier à Bergerac</h2>
+          <div className="max-w-4xl prose prose-lg">
+            <p className="text-muted-foreground leading-relaxed">
+              Bergerac est ville historique Dordogne, centre touristique patrimoine medieval. Marche immobilier bergeracois allie demeures Renaissance proprietes vignobles chateaux perigordins. Region viticole tourisme genere demande croissante residences secondaires investissements locatifs saisonniers. Batiments anciens demeures historiques requierent diagnostics amiante plomb approfondis respect patrimoine. Enjeux energetiques structures anciennes imposent evaluations DPE precision specialized. ENEOS HABITAT intervient Bergerac, apportant expertise immobiliere region viticole perigordine renommee.
+            </p>
+          </div>
+        </div>
+      </section>
+
       {/* Final CTA */}
       <div className="bg-[#2d8a5e] text-white py-20">
         <div className="container mx-auto px-4 max-w-3xl text-center">

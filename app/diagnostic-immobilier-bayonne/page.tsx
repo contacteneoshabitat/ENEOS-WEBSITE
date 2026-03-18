@@ -184,6 +184,18 @@ export default function BayonnePage() {
         </div>
       </div>
 
+      {/* Market Section */}
+      <section className="py-16 bg-white">
+        <div className="container mx-auto px-4">
+          <h2 className="text-3xl font-bold mb-8">Le marché immobilier à Bayonne</h2>
+          <div className="max-w-4xl prose prose-lg">
+            <p className="text-muted-foreground leading-relaxed">
+              Bayonne est la capitale du Pays basque français, ville côtière prestigieuse au patrimoine architectural unique. Le marché immobilier bayonnais allie maisons basques traditionnelles avec propriétés côtières modernes, appartements résidentiels urbains. La destination touristique majeure et l&apos;économie côtière dynamique genèrent demande stable de résidences secondaires et investissements locatifs saisonniers. Les constructions anciennes au cœur historique requièrent diagnostics amiante et plomb rigoureux. Le contexte côtier impose vérifications strictes sur humidité et protection structures marines. ENEOS HABITAT intervient efficacement à Bayonne, apportant expertise immobilière sur caractéristiques uniques du marché côtier basque.
+            </p>
+          </div>
+        </div>
+      </section>
+
       {/* Final CTA */}
       <div className="bg-[#2d8a5e] text-white py-20">
         <div className="container mx-auto px-4 max-w-3xl text-center">

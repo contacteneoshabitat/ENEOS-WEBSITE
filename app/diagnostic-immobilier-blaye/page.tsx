@@ -118,6 +118,18 @@ export default function BlayePage() {
         </div>
       </section>
 
+      {/* Market Section */}
+      <section className="py-16 bg-white">
+        <div className="container mx-auto px-4">
+          <h2 className="text-3xl font-bold mb-8">Le marché immobilier à Blaye</h2>
+          <div className="max-w-4xl prose prose-lg">
+            <p className="text-muted-foreground leading-relaxed">
+              Blaye est une citadelle prestigieuse de Gironde, positionnée sur les berges de la Gironde fluviale. Le marché immobilier blayais combine patrimoine fortifié avec modernité : maisons riveraines, propriétés panoramiques, et résidences contemporaines. La destination touristique et culturelle genère demande stable de résidences secondaires et locations saisonnières. Les constructions anciennes à proximité de la citadelle requièrent diagnostics amiante et plomb rigoureux. Les structures historiques imposent précautions énergétiques spéciales. ENEOS HABITAT intervient efficacement à Blaye, apportant expertise sur enjeux immobiliers du patrimoine historique et environnement fluvial unique de cette région.
+            </p>
+          </div>
+        </div>
+      </section>
+
       {/* Final CTA */}
       <section className="py-16 px-4 md:px-6 lg:px-8 bg-gradient-to-r from-emerald-600 to-emerald-700">
         <div className="max-w-4xl mx-auto text-center space-y-8">

@@ -118,6 +118,18 @@ export default function AgenPage() {
         </div>
       </section>
 
+      {/* Market Section */}
+      <section className="py-16 bg-white">
+        <div className="container mx-auto px-4">
+          <h2 className="text-3xl font-bold mb-8">Le marché immobilier à Agen</h2>
+          <div className="max-w-4xl prose prose-lg">
+            <p className="text-muted-foreground leading-relaxed">
+              Agen est une ville dynamique du Lot-et-Garonne, capitale de la vallée du Lot. Le marché immobilier agennais offre une diversité intéressante : maisons contemporaines en périphérie, propriétés de prestige le long du fleuve, et appartements résidentiels de centre-ville. La région bénéficie d'une demande stable de locations touristiques et d'investissements locatifs. Les biens anciens constituent une part importante du parc, nécessitant diagnostics amiante et plomb complets. L'économie locale diversifiée genère une demande résidentielle stable. ENEOS HABITAT intervient à Agen avec efficacité et professionnalisme, apportant expertise sur les enjeux immobiliers spécifiques à cette région du sud-ouest.
+            </p>
+          </div>
+        </div>
+      </section>
+
       {/* Final CTA */}
       <section className="py-16 px-4 md:px-6 lg:px-8 bg-gradient-to-r from-emerald-600 to-emerald-700">
         <div className="max-w-4xl mx-auto text-center space-y-8">
