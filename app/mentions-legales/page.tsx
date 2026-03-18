@@ -3,6 +3,9 @@ import { Metadata } from "next"
 export const metadata: Metadata = {
   title: "Mentions Légales | ENEOS HABITAT",
   description: "Mentions légales du site ENEOS HABITAT - Diagnostics immobiliers en Gironde.",
+  alternates: {
+    canonical: "https://www.eneoshabitat.fr/mentions-legales"
+  }
 }
 
 export default function MentionsLegalesPage() {
