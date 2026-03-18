@@ -24,5 +24,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${baseUrl}/diagnostic-immobilier-pessac`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.8 },
     { url: `${baseUrl}/diagnostic-immobilier-arcachon`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.8 },
     { url: `${baseUrl}/diagnostic-immobilier-libourne`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.8 },
+    { url: `${baseUrl}/diagnostic-immobilier-perigueux`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.8 },
+    { url: `${baseUrl}/diagnostic-immobilier-agen`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.8 },
+    { url: `${baseUrl}/diagnostic-immobilier-dax`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.8 },
+    { url: `${baseUrl}/diagnostic-immobilier-saintes`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.8 },
+    { url: `${baseUrl}/diagnostic-immobilier-langon`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.8 },
+    { url: `${baseUrl}/diagnostic-immobilier-blaye`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.8 },
+    { url: `${baseUrl}/diagnostic-immobilier-mont-de-marsan`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.8 },
   ]
 }
