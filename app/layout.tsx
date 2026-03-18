@@ -48,6 +48,7 @@ export default function RootLayout({
     "description": "Cabinet de diagnostics immobiliers certifié en région bordelaise. DPE, Amiante, Plomb, Électricité, Gaz, Termites, ERP, Loi Carrez, Loi Boutin.",
     "url": "https://www.eneoshabitat.fr",
     "logo": "https://www.eneoshabitat.fr/logo.png",
+    "image": "https://www.eneoshabitat.fr/images/hero-1.jpeg",
     "telephone": "+33661070891",
     "email": "contact@eneoshabitat.fr",
     "priceRange": "€€",

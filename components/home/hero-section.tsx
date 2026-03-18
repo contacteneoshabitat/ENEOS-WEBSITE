@@ -85,6 +85,7 @@ export function HeroSection() {
             fill
             className="object-cover"
             priority={index === 0}
+            loading="eager"
           />
           
           {/* Overlay */}
