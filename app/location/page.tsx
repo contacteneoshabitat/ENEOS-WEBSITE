@@ -59,6 +59,7 @@ export default function LocationPage() {
             alt="Location immobilière"
             fill
             className="object-cover opacity-20"
+            loading="eager"
           />
         </div>
         <div className="container mx-auto px-4 relative z-10">
