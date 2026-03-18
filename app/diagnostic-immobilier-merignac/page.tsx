@@ -5,8 +5,8 @@ import { Button } from "@/components/ui/button"
 import { CheckCircle, ArrowRight, MapPin, Clock, Award } from "lucide-react"
 
 export const metadata: Metadata = {
-  title: "Diagnostic immobilier Mérignac | ENEOS HABITAT",
-  description: "ENEOS HABITAT réalise vos diagnostics immobiliers à Mérignac et en Gironde. DPE, Amiante, Plomb, Électricité. Devis gratuit sous 24h."
+  title: "Diagnostic immobilier Mérignac | ENEOS HABITAT — Gironde",
+  description: "ENEOS HABITAT intervient à Mérignac pour tous vos diagnostics immobiliers obligatoires. DPE, Amiante, Plomb, Électricité, Gaz. Intervention sous 48h. Devis gratuit en ligne."
 }
 
 const services = [
@@ -142,6 +142,18 @@ export default function MerignacPage() {
                 </div>
               </div>
             </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Market Section */}
+      <section className="py-16 bg-white">
+        <div className="container mx-auto px-4">
+          <h2 className="text-3xl font-bold mb-8">Le marché immobilier à Mérignac</h2>
+          <div className="max-w-4xl prose prose-lg">
+            <p className="text-muted-foreground leading-relaxed">
+              Mérignac est une commune clé de la métropole bordelaise, offrant une excellente qualité de vie tout en restant proche du centre-ville. Le parc immobilier mérignacais combine des maisons individuelles modernes, des villas contemporaines avec jardins, et de nombreux appartements en copropriété. La ville attire des familles en quête d'espace et de proximité avec les services métropolitains. Les biens anciens aux structures variées demandent des diagnostics rigoureux, notamment l'amiante et le plomb pour les constructions antérieures aux années 1997. Les nouveaux programmes immobiliers aux normes énergétiques actuelles nécessitent une évaluation précise de la performance énergétique. ENEOS HABITAT intervient rapidement à Mérignac, maîtrisant les enjeux spécifiques du marché local et adaptant ses diagnostics à la diversité du parc résidentiel.
+            </p>
           </div>
         </div>
       </section>

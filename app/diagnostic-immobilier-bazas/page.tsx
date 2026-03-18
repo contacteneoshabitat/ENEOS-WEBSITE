@@ -5,8 +5,8 @@ import { Button } from "@/components/ui/button"
 import { CheckCircle, ArrowRight, MapPin, Clock, Award } from "lucide-react"
 
 export const metadata: Metadata = {
-  title: "Diagnostic immobilier Bazas | ENEOS HABITAT",
-  description: "ENEOS HABITAT réalise vos diagnostics immobiliers à Bazas et en Nouvelle-Aquitaine. DPE, Amiante, Plomb, Électricité. Devis gratuit sous 24h."
+  title: "Diagnostic immobilier Bazas | ENEOS HABITAT — Gironde",
+  description: "ENEOS HABITAT intervient à Bazas pour tous vos diagnostics immobiliers obligatoires. DPE, Amiante, Plomb, Électricité, Gaz. Intervention sous 48h. Devis gratuit en ligne."
 }
 
 const services = [
@@ -183,6 +183,18 @@ export default function BazasPage() {
           </div>
         </div>
       </div>
+
+      {/* Market Section */}
+      <section className="py-16 bg-white">
+        <div className="container mx-auto px-4">
+          <h2 className="text-3xl font-bold mb-8">Le marché immobilier à Bazas</h2>
+          <div className="max-w-4xl prose prose-lg">
+            <p className="text-muted-foreground leading-relaxed">
+              Bazas est commune rurale Gironde, centre historique patrimoine remarquable. Marché immobilier bazassais allie maisons character traditionnel propriétés agricoles, demeurers campagne. Region rurale genère demande moderate residences permanentes investissements agricoles. Bâtiments anciens patrimoniaux requièrent diagnostics amiante plomb approfondis respect patrimoine. Enjeux énergétiques croissants imposent compliance DPE stricte. ENEOS HABITAT intervient Bazas, apportant expertise immobiliere region patrimoine rural girondienne.
+            </p>
+          </div>
+        </div>
+      </section>
 
       {/* Final CTA */}
       <div className="bg-[#2d8a5e] text-white py-20">

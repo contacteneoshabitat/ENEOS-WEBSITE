@@ -5,8 +5,8 @@ import { Button } from "@/components/ui/button"
 import { CheckCircle, ArrowRight, MapPin, Clock, Award } from "lucide-react"
 
 export const metadata: Metadata = {
-  title: "Diagnostic immobilier Arcachon | ENEOS HABITAT",
-  description: "ENEOS HABITAT réalise vos diagnostics immobiliers à Arcachon et en Gironde. DPE, Amiante, Plomb, Électricité. Devis gratuit sous 24h."
+  title: "Diagnostic immobilier Arcachon | ENEOS HABITAT — Gironde",
+  description: "ENEOS HABITAT intervient à Arcachon pour tous vos diagnostics immobiliers obligatoires. DPE, Amiante, Plomb, Électricité, Gaz. Intervention sous 48h. Devis gratuit en ligne."
 }
 
 const services = [
@@ -142,6 +142,18 @@ export default function ArcachonPage() {
                 </div>
               </div>
             </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Market Section */}
+      <section className="py-16 bg-white">
+        <div className="container mx-auto px-4">
+          <h2 className="text-3xl font-bold mb-8">Le marché immobilier à Arcachon</h2>
+          <div className="max-w-4xl prose prose-lg">
+            <p className="text-muted-foreground leading-relaxed">
+              Arcachon est une destination balnéaire prestigieuse, attirant touristes et investisseurs immobiliers du monde entier. Le marché immobilier arcachonnais se caractérise par des villas Belle Époque classées, des propriétés récentes avec vues mer, et des appartements en copropriété face aux plages. La valeur immobilière y est particulièrement sensible à l&apos;état du bâti et à la performance énergétique, critères majeurs pour cette clientèle exigeante. Les biens anciens demandent des diagnostics amiante et plomb rigoureux. Le climat marin impose des vérifications strictes sur l&apos;humidité et l&apos;état des structures. ENEOS HABITAT maîtrise les enjeux du marché haut de gamme arcachonnais, offrant des diagnostics complets respectant les standards élevés attendus par les acquéreurs et investisseurs de la région.
+            </p>
           </div>
         </div>
       </section>

@@ -5,8 +5,8 @@ import { Button } from "@/components/ui/button"
 import { CheckCircle, ArrowRight, MapPin, Clock, Award } from "lucide-react"
 
 export const metadata: Metadata = {
-  title: "Diagnostic immobilier Bergerac | ENEOS HABITAT",
-  description: "ENEOS HABITAT réalise vos diagnostics immobiliers à Bergerac et en Nouvelle-Aquitaine. DPE, Amiante, Plomb, Électricité. Devis gratuit sous 24h."
+  title: "Diagnostic immobilier Bergerac | ENEOS HABITAT — Gironde",
+  description: "ENEOS HABITAT intervient à Bergerac pour tous vos diagnostics immobiliers obligatoires. DPE, Amiante, Plomb, Électricité, Gaz. Intervention sous 48h. Devis gratuit en ligne."
 }
 
 const services = [
@@ -183,6 +183,18 @@ export default function BergeracPage() {
           </div>
         </div>
       </div>
+
+      {/* Market Section */}
+      <section className="py-16 bg-white">
+        <div className="container mx-auto px-4">
+          <h2 className="text-3xl font-bold mb-8">Le marché immobilier à Bergerac</h2>
+          <div className="max-w-4xl prose prose-lg">
+            <p className="text-muted-foreground leading-relaxed">
+              Bergerac est ville historique Dordogne, centre touristique patrimoine medieval. Marche immobilier bergeracois allie demeures Renaissance proprietes vignobles chateaux perigordins. Region viticole tourisme genere demande croissante residences secondaires investissements locatifs saisonniers. Batiments anciens demeures historiques requierent diagnostics amiante plomb approfondis respect patrimoine. Enjeux energetiques structures anciennes imposent evaluations DPE precision specialized. ENEOS HABITAT intervient Bergerac, apportant expertise immobiliere region viticole perigordine renommee.
+            </p>
+          </div>
+        </div>
+      </section>
 
       {/* Final CTA */}
       <div className="bg-[#2d8a5e] text-white py-20">

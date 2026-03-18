@@ -5,8 +5,8 @@ import { Button } from "@/components/ui/button"
 import { CheckCircle, ArrowRight, MapPin } from "lucide-react"
 
 export const metadata: Metadata = {
-  title: "Diagnostic immobilier Langon | ENEOS HABITAT",
-  description: "ENEOS HABITAT réalise vos diagnostics immobiliers à Langon et en Gironde. DPE, Amiante, Plomb, Électricité. Devis gratuit sous 24h."
+  title: "Diagnostic immobilier Langon | ENEOS HABITAT — Gironde",
+  description: "ENEOS HABITAT intervient à Langon pour tous vos diagnostics immobiliers obligatoires. DPE, Amiante, Plomb, Électricité, Gaz. Intervention sous 48h. Devis gratuit en ligne."
 }
 
 export default function LangonPage() {
@@ -114,6 +114,18 @@ export default function LangonPage() {
               <h3 className="text-xl font-semibold">Tarifs compétitifs</h3>
               <p className="text-muted-foreground">Les meilleurs prix sans compromis sur la qualité.</p>
             </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Market Section */}
+      <section className="py-16 bg-white">
+        <div className="container mx-auto px-4">
+          <h2 className="text-3xl font-bold mb-8">Le marché immobilier à Langon</h2>
+          <div className="max-w-4xl prose prose-lg">
+            <p className="text-muted-foreground leading-relaxed">
+              Langon est une commune dynamique du sud-Gironde, stratégiquement positionnée à la confluence de cours d&apos;eau importants. Le marché immobilier langonnais propose maisons familiales modernes, propriétés agricoles et touristiques, ainsi qu&apos;appartements résidentiels variés. La région viticole environnante (Sauternes, Graves) genère demande stable de propriétés avec potentiel touristique. Les bâtiments anciens requièrent diagnostics amiante et plomb complets. Les petits commerces locaux offrent environnement d&apos;affaires stable. ENEOS HABITAT intervient efficacement à Langon, apportant expertise sur enjeux immobiliers et energétiques spécifiques à cette région commerciale et agricole du sud-ouest girondien.
+            </p>
           </div>
         </div>
       </section>

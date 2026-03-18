@@ -5,8 +5,8 @@ import { Button } from "@/components/ui/button"
 import { CheckCircle, ArrowRight, MapPin } from "lucide-react"
 
 export const metadata: Metadata = {
-  title: "Diagnostic immobilier Agen | ENEOS HABITAT",
-  description: "ENEOS HABITAT réalise vos diagnostics immobiliers à Agen et en Lot-et-Garonne. DPE, Amiante, Plomb, Électricité. Devis gratuit sous 24h."
+  title: "Diagnostic immobilier Agen | ENEOS HABITAT — Gironde",
+  description: "ENEOS HABITAT intervient à Agen pour tous vos diagnostics immobiliers obligatoires. DPE, Amiante, Plomb, Électricité, Gaz. Intervention sous 48h. Devis gratuit en ligne."
 }
 
 export default function AgenPage() {
@@ -114,6 +114,18 @@ export default function AgenPage() {
               <h3 className="text-xl font-semibold">Tarifs compétitifs</h3>
               <p className="text-muted-foreground">Les meilleurs prix sans compromis sur la qualité.</p>
             </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Market Section */}
+      <section className="py-16 bg-white">
+        <div className="container mx-auto px-4">
+          <h2 className="text-3xl font-bold mb-8">Le marché immobilier à Agen</h2>
+          <div className="max-w-4xl prose prose-lg">
+            <p className="text-muted-foreground leading-relaxed">
+              Agen est une ville dynamique du Lot-et-Garonne, capitale de la vallée du Lot. Le marché immobilier agennais offre une diversité intéressante : maisons contemporaines en périphérie, propriétés de prestige le long du fleuve, et appartements résidentiels de centre-ville. La région bénéficie d'une demande stable de locations touristiques et d'investissements locatifs. Les biens anciens constituent une part importante du parc, nécessitant diagnostics amiante et plomb complets. L'économie locale diversifiée genère une demande résidentielle stable. ENEOS HABITAT intervient à Agen avec efficacité et professionnalisme, apportant expertise sur les enjeux immobiliers spécifiques à cette région du sud-ouest.
+            </p>
           </div>
         </div>
       </section>

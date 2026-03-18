@@ -5,8 +5,8 @@ import { Button } from "@/components/ui/button"
 import { CheckCircle, ArrowRight, MapPin, Clock, Award } from "lucide-react"
 
 export const metadata: Metadata = {
-  title: "Diagnostic immobilier Bordeaux | ENEOS HABITAT",
-  description: "ENEOS HABITAT réalise vos diagnostics immobiliers à Bordeaux et en Gironde. DPE, Amiante, Plomb, Électricité. Devis gratuit sous 24h."
+  title: "Diagnostic immobilier Bordeaux | ENEOS HABITAT — Gironde",
+  description: "ENEOS HABITAT intervient à Bordeaux pour tous vos diagnostics immobiliers obligatoires. DPE, Amiante, Plomb, Électricité, Gaz. Intervention sous 48h. Devis gratuit en ligne."
 }
 
 const services = [
@@ -142,6 +142,18 @@ export default function BordeauxPage() {
                 </div>
               </div>
             </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Market Section */}
+      <section className="py-16 bg-white">
+        <div className="container mx-auto px-4">
+          <h2 className="text-3xl font-bold mb-8">Le marché immobilier à Bordeaux</h2>
+          <div className="max-w-4xl prose prose-lg">
+            <p className="text-muted-foreground leading-relaxed">
+              Bordeaux est l&apos;une des villes les plus dynamiques de France, avec un marché immobilier en constante évolution. La métropole bordelaise attire de nombreux acquéreurs et investisseurs, tant pour les résidences principales que pour les investissements locatifs. Le parc immobilier bordelais est très diversifié : maisons de prestige du XVIIIe siècle, villas modernes en périphérie, appartements haussmanniens dans le centre-ville, ainsi que des bâtiments contemporains aux normes actuelles. Cette diversité architecturale implique des exigences diagnostiques strictes, notamment concernant l&apos;amiante, le plomb et la performance énergétique. Pour les biens anciens (construction antérieure à 1997), les diagnostics amiante et plomb sont particulièrement critiques. Les appartements en copropriété, très nombreux à Bordeaux, nécessitent un diagnostic de surface Loi Carrez précis. ENEOS HABITAT maîtrise l&apos;ensemble de ces enjeux spécifiques au marché bordelais et accompagne vendeurs et acquéreurs avec sérieux et expertise, en respectant les délais serrés souvent imposés par les transactions urbaines.
+            </p>
           </div>
         </div>
       </section>

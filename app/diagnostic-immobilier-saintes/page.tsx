@@ -5,8 +5,8 @@ import { Button } from "@/components/ui/button"
 import { CheckCircle, ArrowRight, MapPin } from "lucide-react"
 
 export const metadata: Metadata = {
-  title: "Diagnostic immobilier Saintes | ENEOS HABITAT",
-  description: "ENEOS HABITAT réalise vos diagnostics immobiliers à Saintes et en Charente-Maritime. DPE, Amiante, Plomb, Électricité. Devis gratuit sous 24h."
+  title: "Diagnostic immobilier Saintes | ENEOS HABITAT — Gironde",
+  description: "ENEOS HABITAT intervient à Saintes pour tous vos diagnostics immobiliers obligatoires. DPE, Amiante, Plomb, Électricité, Gaz. Intervention sous 48h. Devis gratuit en ligne."
 }
 
 export default function SaintesPage() {
@@ -114,6 +114,18 @@ export default function SaintesPage() {
               <h3 className="text-xl font-semibold">Tarifs compétitifs</h3>
               <p className="text-muted-foreground">Les meilleurs prix sans compromis sur la qualité.</p>
             </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Market Section */}
+      <section className="py-16 bg-white">
+        <div className="container mx-auto px-4">
+          <h2 className="text-3xl font-bold mb-8">Le marché immobilier à Saintes</h2>
+          <div className="max-w-4xl prose prose-lg">
+            <p className="text-muted-foreground leading-relaxed">
+              Saintes est un centre historique important de Charente-Maritime, riche en patrimoine antique et médiéval. Le marché immobilier saintongeais allie bâtiments classés au prestige rare avec propriétés modernes en zone périphérique. Les acquisitions ciblent residences principales, investissements locatifs touristiques, et propriétés agricoles. L&apos;importance du patrimoine ancien requiert diagnostics amiante et plomb rigoureux sur de nombreux biens. La proximity avec côtes tourisme génère demande résidentielle secondaire stable. Les enjeux énergétiques croissants imposent évaluations DPE precises. ENEOS HABITAT intervient régulièrement à Saintes, maîtrisant les spécificités immobilières de cette région historique majeure.
+            </p>
           </div>
         </div>
       </section>

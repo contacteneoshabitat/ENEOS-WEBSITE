@@ -5,8 +5,8 @@ import { Button } from "@/components/ui/button"
 import { CheckCircle, ArrowRight, MapPin } from "lucide-react"
 
 export const metadata: Metadata = {
-  title: "Diagnostic immobilier Dax | ENEOS HABITAT",
-  description: "ENEOS HABITAT réalise vos diagnostics immobiliers à Dax et dans les Landes. DPE, Amiante, Plomb, Électricité. Devis gratuit sous 24h."
+  title: "Diagnostic immobilier Dax | ENEOS HABITAT — Gironde",
+  description: "ENEOS HABITAT intervient à Dax pour tous vos diagnostics immobiliers obligatoires. DPE, Amiante, Plomb, Électricité, Gaz. Intervention sous 48h. Devis gratuit en ligne."
 }
 
 export default function DaxPage() {
@@ -114,6 +114,18 @@ export default function DaxPage() {
               <h3 className="text-xl font-semibold">Tarifs compétitifs</h3>
               <p className="text-muted-foreground">Les meilleurs prix sans compromis sur la qualité.</p>
             </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Market Section */}
+      <section className="py-16 bg-white">
+        <div className="container mx-auto px-4">
+          <h2 className="text-3xl font-bold mb-8">Le marché immobilier à Dax</h2>
+          <div className="max-w-4xl prose prose-lg">
+            <p className="text-muted-foreground leading-relaxed">
+              Dax est une station thermale réputée des Landes, attirant visiteurs et résidents en quête de bien-être. Le marché immobilier daxais se caractérise par des villas de prestige, des hôtels particuliers, et des propriétés touristiques. La ville bénéficie d'une économie touristique stable générant demande résidentielle soutenue. Les bâtiments anciens ayant bénéficié de réhabilitations modernes coexistent avec constructions récentes. Le diagnostic thermique et la performance énergétique sont critères importants pour cette clientèle attentive à l&apos;efficacité énergétique. ENEOS HABITAT intervient à Dax avec connaissance fine du marché thermal et touristique local, offrant diagnostics complets adaptés aux attentes des acquéreurs et investisseurs régionaux.
+            </p>
           </div>
         </div>
       </section>

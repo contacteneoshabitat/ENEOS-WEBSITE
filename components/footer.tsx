@@ -145,6 +145,14 @@ export function Footer() {
         <span>Mentions légales</span>
       </Link>
 
+      {/* Paiement */}
+      <Link
+        href="/paiement"
+        className="flex items-center gap-2 hover:text-white transition-colors"
+      >
+        <span>Paiement</span>
+      </Link>
+
     </div>
   </div>
 </div>

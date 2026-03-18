@@ -5,8 +5,8 @@ import { Button } from "@/components/ui/button"
 import { CheckCircle, ArrowRight, MapPin, Clock, Award } from "lucide-react"
 
 export const metadata: Metadata = {
-  title: "Diagnostic immobilier Cognac | ENEOS HABITAT",
-  description: "ENEOS HABITAT réalise vos diagnostics immobiliers à Cognac et en Nouvelle-Aquitaine. DPE, Amiante, Plomb, Électricité. Devis gratuit sous 24h."
+  title: "Diagnostic immobilier Cognac | ENEOS HABITAT — Gironde",
+  description: "ENEOS HABITAT intervient à Cognac pour tous vos diagnostics immobiliers obligatoires. DPE, Amiante, Plomb, Électricité, Gaz. Intervention sous 48h. Devis gratuit en ligne."
 }
 
 const services = [
@@ -183,6 +183,18 @@ export default function CognacPage() {
           </div>
         </div>
       </div>
+
+      {/* Market Section */}
+      <section className="py-16 bg-white">
+        <div className="container mx-auto px-4">
+          <h2 className="text-3xl font-bold mb-8">Le marché immobilier à Cognac</h2>
+          <div className="max-w-4xl prose prose-lg">
+            <p className="text-muted-foreground leading-relaxed">
+              Cognac est ville prestige Charente, capitale mondiale alcool cognac. Marche immobilier cognacais allie maisons bourgeoisies chais historiques proprietes familiales vignobles. Economie cognac internationale genere demande stable residences permanentes investissements crus. Batiments anciens patrimoniaux cognacais requierent diagnostics amiante plomb rigoureux preservation. Structures historiques chais imposent precautions specifiques environnement alcool. ENEOS HABITAT intervient Cognac, maitrisant marche immobilier region cognac prestige mondialement reconnue.
+            </p>
+          </div>
+        </div>
+      </section>
 
       {/* Final CTA */}
       <div className="bg-[#2d8a5e] text-white py-20">

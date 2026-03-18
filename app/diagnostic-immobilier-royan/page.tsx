@@ -5,8 +5,8 @@ import { Button } from "@/components/ui/button"
 import { CheckCircle, ArrowRight, MapPin, Clock, Award } from "lucide-react"
 
 export const metadata: Metadata = {
-  title: "Diagnostic immobilier Royan | ENEOS HABITAT",
-  description: "ENEOS HABITAT réalise vos diagnostics immobiliers à Royan et en Nouvelle-Aquitaine. DPE, Amiante, Plomb, Électricité. Devis gratuit sous 24h."
+  title: "Diagnostic immobilier Royan | ENEOS HABITAT — Gironde",
+  description: "ENEOS HABITAT intervient à Royan pour tous vos diagnostics immobiliers obligatoires. DPE, Amiante, Plomb, Électricité, Gaz. Intervention sous 48h. Devis gratuit en ligne."
 }
 
 const services = [
@@ -183,6 +183,18 @@ export default function RoyanPage() {
           </div>
         </div>
       </div>
+
+      {/* Market Section */}
+      <section className="py-16 bg-white">
+        <div className="container mx-auto px-4">
+          <h2 className="text-3xl font-bold mb-8">Le marché immobilier à Royan</h2>
+          <div className="max-w-4xl prose prose-lg">
+            <p className="text-muted-foreground leading-relaxed">
+              Royan est station balneaire prestigieuse Charente-Maritime, destination touristique majeure atlantique. Marche immobilier royannais allie villas Belle-Époque refactorisees proprietes cotieres modernes appartements bord mer. Destination touristique premiere classe genere demande massive residences secondaires investissements immobiliers. Batiments anciens bord mer requierent diagnostics amiante plomb approfondis protections specifiques maritime. Enjeux energetiques climat cotieres imposent evaluations DPE rigoureuses. ENEOS HABITAT intervient regulierement Royan, maitrisant marche cotier balneaire specifique.
+            </p>
+          </div>
+        </div>
+      </section>
 
       {/* Final CTA */}
       <div className="bg-[#2d8a5e] text-white py-20">

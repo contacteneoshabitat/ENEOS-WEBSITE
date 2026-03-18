@@ -40,5 +40,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${baseUrl}/diagnostic-immobilier-royan`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.8 },
     { url: `${baseUrl}/diagnostic-immobilier-cognac`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.8 },
     { url: `${baseUrl}/diagnostic-immobilier-bergerac`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.8 },
+    { url: `${baseUrl}/paiement`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.5 },
+    { url: `${baseUrl}/mentions-legales`, lastModified: new Date(), changeFrequency: 'yearly', priority: 0.5 },
   ]
 }
