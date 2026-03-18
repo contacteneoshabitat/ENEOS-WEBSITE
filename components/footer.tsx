@@ -94,18 +94,31 @@ export function Footer() {
             </ul>
           </div>
 
-          {/* Legal */}
-          <div className="bg-white/5 rounded-xl p-6">
-            <h4 className="text-lg font-semibold mb-4">Informations légales</h4>
-            <p className="text-sm text-white/70">
-              <strong className="text-[#2d8a5e]">SIREN :</strong> 989 825 484
-            </p>
-            <p className="text-sm text-white/70 mt-2">
-              <strong className="text-[#2d8a5e]">SIRET :</strong> 989 825 484 00011
-            </p>
-            <p className="text-sm text-white/60 mt-4">
-              SAS au capital de 2 000 € – Société à mission
-            </p>
+          {/* Navigation */}
+          <div>
+            <h4 className="text-lg font-semibold mb-6">Navigation</h4>
+            <ul className="space-y-3 text-white/70">
+              <li>
+                <Link href="/" className="hover:text-white transition-colors">
+                  Accueil
+                </Link>
+              </li>
+              <li>
+                <Link href="/a-propos" className="hover:text-white transition-colors">
+                  À propos
+                </Link>
+              </li>
+              <li>
+                <Link href="/zones-intervention" className="hover:text-white transition-colors">
+                  Zones d'intervention
+                </Link>
+              </li>
+              <li>
+                <Link href="/devis" className="hover:text-white transition-colors">
+                  Devis gratuit
+                </Link>
+              </li>
+            </ul>
           </div>
 
         </div>

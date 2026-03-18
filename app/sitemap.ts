@@ -31,5 +31,14 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${baseUrl}/diagnostic-immobilier-langon`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.8 },
     { url: `${baseUrl}/diagnostic-immobilier-blaye`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.8 },
     { url: `${baseUrl}/diagnostic-immobilier-mont-de-marsan`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.8 },
+    { url: `${baseUrl}/zones-intervention`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.8 },
+    { url: `${baseUrl}/diagnostic-immobilier-bayonne`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.8 },
+    { url: `${baseUrl}/diagnostic-immobilier-rochefort`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.8 },
+    { url: `${baseUrl}/diagnostic-immobilier-la-reole`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.8 },
+    { url: `${baseUrl}/diagnostic-immobilier-bazas`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.8 },
+    { url: `${baseUrl}/diagnostic-immobilier-jonzac`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.8 },
+    { url: `${baseUrl}/diagnostic-immobilier-royan`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.8 },
+    { url: `${baseUrl}/diagnostic-immobilier-cognac`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.8 },
+    { url: `${baseUrl}/diagnostic-immobilier-bergerac`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.8 },
   ]
 }
