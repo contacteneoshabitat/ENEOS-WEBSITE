@@ -5,7 +5,8 @@ export const metadata: Metadata = {
   description: "Paiement sécurisé des diagnostics immobiliers ENEOS HABITAT.",
   alternates: {
     canonical: "https://www.eneoshabitat.fr/paiement"
-  }
+  },
+  robots: { index: false, follow: false }
 }
 
 export default function PaiementLayout({

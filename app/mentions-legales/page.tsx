@@ -5,7 +5,8 @@ export const metadata: Metadata = {
   description: "Mentions légales du site ENEOS HABITAT - Diagnostics immobiliers en Gironde.",
   alternates: {
     canonical: "https://www.eneoshabitat.fr/mentions-legales"
-  }
+  },
+  robots: { index: false, follow: false }
 }
 
 export default function MentionsLegalesPage() {
