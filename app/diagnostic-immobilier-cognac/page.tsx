@@ -1,8 +1,5 @@
 import type { Metadata } from 'next'
-import Image from "next/image"
-import Link from "next/link"
-import { Button } from "@/components/ui/button"
-import { CheckCircle, ArrowRight, MapPin, Clock, Award } from "lucide-react"
+import { CityPageTemplate } from '@/components/city-page-template'
 
 export const metadata: Metadata = {
   title: "Diagnostic immobilier Cognac | ENEOS HABITAT — Gironde",
@@ -12,23 +9,15 @@ export const metadata: Metadata = {
   }
 }
 
-const services = [
-  { title: "DPE", href: "/services/dpe" },
-  { title: "Amiante", href: "/services/amiante" },
-  { title: "Plomb", href: "/services/plomb" },
-  { title: "Électricité", href: "/services/electricite" },
-  { title: "Gaz", href: "/services/gaz" },
-  { title: "Termites", href: "/services/termites" },
-  { title: "ERP", href: "/services/erp" },
-  { title: "Loi Carrez", href: "/services/carrez" },
-  { title: "Loi Boutin", href: "/services/boutin" },
-]
-
 export default function CognacPage() {
   return (
-    <div className="min-h-screen">
-      {/* Hero */}
-      <div className="relative bg-[#1a2e35] text-white py-24">
+    <CityPageTemplate
+      cityName="Cognac"
+      citySlug="cognac"
+      metaDescription="ENEOS HABITAT intervient à Cognac pour tous vos diagnostics immobiliers obligatoires."
+    />
+  )
+}
         <div className="absolute inset-0 overflow-hidden">
           <Image
             src="/images/hero-1.jpg"

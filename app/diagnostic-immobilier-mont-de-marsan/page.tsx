@@ -1,8 +1,5 @@
 import type { Metadata } from 'next'
-import Image from "next/image"
-import Link from "next/link"
-import { Button } from "@/components/ui/button"
-import { CheckCircle, ArrowRight, MapPin } from "lucide-react"
+import { CityPageTemplate } from '@/components/city-page-template'
 
 export const metadata: Metadata = {
   title: "Diagnostic immobilier Mont-de-Marsan | ENEOS HABITAT — Gironde",
@@ -12,11 +9,15 @@ export const metadata: Metadata = {
   }
 }
 
-export default function MontDeMarSanPage() {
+export default function MontDeMarsanPage() {
   return (
-    <div className="min-h-screen bg-background">
-      {/* Hero Section */}
-      <section className="relative py-20 px-4 md:px-6 lg:px-8 bg-gradient-to-b from-slate-50 to-white">
+    <CityPageTemplate
+      cityName="Mont-de-Marsan"
+      citySlug="mont-de-marsan"
+      metaDescription="ENEOS HABITAT intervient à Mont-de-Marsan pour tous vos diagnostics immobiliers obligatoires."
+    />
+  )
+}
         <div className="max-w-6xl mx-auto">
           <div className="text-center space-y-6">
             <h1 className="text-4xl md:text-5xl font-bold text-foreground">
