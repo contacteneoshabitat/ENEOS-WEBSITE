@@ -4,6 +4,8 @@ import { Phone, Mail, MapPin, Clock, Facebook, Linkedin, Instagram } from "lucid
 import { Button } from "@/components/ui/button"
 import { Input } from "@/components/ui/input"
 import { MessageCircle } from "lucide-react"
+import { ServiceLinks } from "@/components/service-links"
+import { CityLinks } from "@/components/city-links"
 
 export function Footer() {
   return (
@@ -155,8 +157,22 @@ export function Footer() {
 
     </div>
   </div>
-</div>
 
+  {/* Services Section */}
+  <div className="border-t border-white/10 mt-12 pt-12">
+    <div className="container mx-auto px-4">
+      <h3 className="text-lg font-semibold mb-6">Nos Diagnostics</h3>
+      <ServiceLinks />
+    </div>
+  </div>
+
+  {/* Cities Section */}
+  <div className="border-t border-white/10 mt-12 pt-12">
+    <div className="container mx-auto px-4">
+      <h3 className="text-lg font-semibold mb-6">Zones d'Intervention</h3>
+      <CityLinks />
+    </div>
+  </div>
 
     </footer>
   )

@@ -8,6 +8,9 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/com
 export const metadata: Metadata = {
   title: "Audit Énergétique | ENEOS HABITAT - Gironde (33)",
   description: "Audit énergétique complet pour améliorer la performance énergétique de votre bien. Obligatoire pour la vente de maisons classées F ou G. Intervention rapide en Gironde et Nouvelle-Aquitaine.",
+  alternates: {
+    canonical: "https://www.eneoshabitat.fr/services/audit-energetique"
+  },
 }
 
 export default function AuditEnergetiquePage() {

@@ -4,6 +4,9 @@ import { ServicePageTemplate } from "@/components/service-page-template"
 export const metadata: Metadata = {
   title: "Diagnostic Termites | ENEOS HABITAT",
   description: "Réalisez votre diagnostic termites avec ENEOS HABITAT. Obligatoire en zone à risque pour la vente. Devis gratuit, intervention rapide en Gironde.",
+  alternates: {
+    canonical: "https://www.eneoshabitat.fr/services/termites"
+  }
 }
 
 const termitesService = {

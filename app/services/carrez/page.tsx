@@ -4,6 +4,9 @@ import { ServicePageTemplate } from "@/components/service-page-template"
 export const metadata: Metadata = {
   title: "Diagnostic Loi Carrez | ENEOS HABITAT",
   description: "Mesurage Loi Carrez avec ENEOS HABITAT. Obligatoire pour la vente de biens en copropriété. Devis gratuit, intervention rapide en Gironde.",
+  alternates: {
+    canonical: "https://www.eneoshabitat.fr/services/carrez"
+  }
 }
 
 const carrezService = {
