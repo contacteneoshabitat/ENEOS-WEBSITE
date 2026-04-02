@@ -47,8 +47,38 @@ export default async function ArticlePage({ params }: Props) {
     .sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime())
     .slice(0, 2)
 
+  // BlogPosting JSON-LD Schema
+  const jsonLd = {
+    '@context': 'https://schema.org',
+    '@type': 'BlogPosting',
+    headline: article.title,
+    description: article.excerpt,
+    image: `https://www.eneoshabitat.fr${article.image}`,
+    author: {
+      '@type': 'Organization',
+      name: 'ENEOS HABITAT',
+      url: 'https://www.eneoshabitat.fr'
+    },
+    datePublished: article.publishedAt || article.date,
+    dateModified: article.publishedAt || article.date,
+    articleBody: article.content.replace(/<[^>]*>/g, ''),
+    publisher: {
+      '@type': 'Organization',
+      name: 'ENEOS HABITAT',
+      logo: {
+        '@type': 'ImageObject',
+        url: 'https://www.eneoshabitat.fr/logo.png'
+      }
+    }
+  }
+
   return (
     <main>
+      {/* JSON-LD BlogPosting Schema */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
       {/* Breadcrumb */}
       <div className="bg-slate-50 border-b border-slate-200">
         <div className="container mx-auto px-4 py-4">

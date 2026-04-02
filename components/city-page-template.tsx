@@ -4,6 +4,7 @@ import { Button } from "@/components/ui/button"
 import { ArrowRight, MapPin, Clock, Award, CheckCircle } from "lucide-react"
 import { CityContent } from "@/components/city-content"
 import { FAQCitySection } from "@/components/faq-city-section"
+import { LatestPosts } from "@/components/latest-posts"
 
 interface CityPageTemplateProps {
   cityName: string
@@ -145,6 +146,9 @@ export function CityPageTemplate({
           <FAQCitySection citySlug={citySlug} cityName={cityName} />
         </div>
       </section>
+
+      {/* Latest Blog Posts */}
+      <LatestPosts limit={3} showViewAll={true} />
 
       {/* CTA */}
       <section className="py-16 bg-[#2d8a5e]">
