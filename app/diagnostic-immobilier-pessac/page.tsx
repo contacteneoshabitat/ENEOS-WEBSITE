@@ -1,29 +1,23 @@
 import type { Metadata } from 'next'
-import Image from "next/image"
-import Link from "next/link"
-import { Button } from "@/components/ui/button"
-import { CheckCircle, ArrowRight, MapPin, Clock, Award } from "lucide-react"
+import { CityPageTemplate } from '@/components/city-page-template'
 
 export const metadata: Metadata = {
   title: "Diagnostic immobilier Pessac | ENEOS HABITAT — Gironde",
-  description: "ENEOS HABITAT intervient à Pessac pour tous vos diagnostics immobiliers obligatoires. DPE, Amiante, Plomb, Électricité, Gaz. Intervention sous 48h. Devis gratuit en ligne."
+  description: "ENEOS HABITAT intervient à Pessac pour tous vos diagnostics immobiliers obligatoires. DPE, Amiante, Plomb, Électricité, Gaz. Intervention sous 48h. Devis gratuit en ligne.",
+  alternates: {
+    canonical: "https://www.eneoshabitat.fr/diagnostic-immobilier-pessac"
+  }
 }
-
-const services = [
-  { title: "DPE", href: "/services/dpe" },
-  { title: "Amiante", href: "/services/amiante" },
-  { title: "Plomb", href: "/services/plomb" },
-  { title: "Électricité", href: "/services/electricite" },
-  { title: "Gaz", href: "/services/gaz" },
-  { title: "Termites", href: "/services/termites" },
-  { title: "ERP", href: "/services/erp" },
-  { title: "Loi Carrez", href: "/services/carrez" },
-  { title: "Loi Boutin", href: "/services/boutin" },
-]
 
 export default function PessacPage() {
   return (
-    <div className="min-h-screen">
+    <CityPageTemplate
+      cityName="Pessac"
+      citySlug="pessac"
+      metaDescription="ENEOS HABITAT intervient à Pessac pour tous vos diagnostics immobiliers obligatoires."
+    />
+  )
+}
       {/* Hero */}
       <div className="relative bg-[#1a2e35] text-white py-24">
         <div className="absolute inset-0 overflow-hidden">

@@ -4,6 +4,9 @@ import { ServicePageTemplate } from "@/components/service-page-template"
 export const metadata: Metadata = {
   title: "Diagnostic Loi Boutin - Surface Habitable | ENEOS HABITAT",
   description: "Mesurage de la surface habitable (Loi Boutin) avec ENEOS HABITAT. Obligatoire pour la location. Devis gratuit, intervention rapide en Gironde.",
+  alternates: {
+    canonical: "https://www.eneoshabitat.fr/services/boutin"
+  }
 }
 
 const boutinService = {

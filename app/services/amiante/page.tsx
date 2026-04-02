@@ -4,6 +4,9 @@ import { ServicePageTemplate } from "@/components/service-page-template"
 export const metadata: Metadata = {
   title: "Diagnostic Amiante | ENEOS HABITAT",
   description: "Diagnostic amiante obligatoire pour les biens construits avant 1997. ENEOS HABITAT réalise votre diagnostic amiante en Gironde. Devis gratuit, intervention rapide.",
+  alternates: {
+    canonical: "https://www.eneoshabitat.fr/services/amiante"
+  }
 }
 
 const amianteService = {

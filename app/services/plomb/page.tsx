@@ -4,6 +4,9 @@ import { ServicePageTemplate } from "@/components/service-page-template"
 export const metadata: Metadata = {
   title: "Diagnostic Plomb (CREP) | ENEOS HABITAT",
   description: "Réalisez votre diagnostic plomb (CREP) avec ENEOS HABITAT. Obligatoire pour les biens construits avant 1949. Devis gratuit, intervention rapide en Gironde.",
+  alternates: {
+    canonical: "https://www.eneoshabitat.fr/services/plomb"
+  }
 }
 
 const plombService = {

@@ -4,6 +4,9 @@ import { ServicePageTemplate } from "@/components/service-page-template"
 export const metadata: Metadata = {
   title: "DPE - Diagnostic de Performance Énergétique | ENEOS HABITAT",
   description: "Réalisez votre DPE (Diagnostic de Performance Énergétique) avec ENEOS HABITAT. Diagnostic obligatoire pour la vente et location. Devis gratuit, intervention rapide en Gironde.",
+  alternates: {
+    canonical: "https://www.eneoshabitat.fr/services/dpe"
+  }
 }
 
 const dpeService = {

@@ -3,10 +3,15 @@ import Image from "next/image"
 import Link from "next/link"
 import { Button } from "@/components/ui/button"
 import { CheckCircle, ArrowRight, MapPin, Clock, Award } from "lucide-react"
+import { CityContent } from "@/components/city-content"
+import { FAQCitySection } from "@/components/faq-city-section"
 
 export const metadata: Metadata = {
   title: "Diagnostic immobilier Bordeaux | ENEOS HABITAT — Gironde",
-  description: "ENEOS HABITAT intervient à Bordeaux pour tous vos diagnostics immobiliers obligatoires. DPE, Amiante, Plomb, Électricité, Gaz. Intervention sous 48h. Devis gratuit en ligne."
+  description: "ENEOS HABITAT intervient à Bordeaux pour tous vos diagnostics immobiliers obligatoires. DPE, Amiante, Plomb, Électricité, Gaz. Intervention sous 48h. Devis gratuit en ligne.",
+  alternates: {
+    canonical: "https://www.eneoshabitat.fr/diagnostic-immobilier-bordeaux"
+  }
 }
 
 const services = [
@@ -155,6 +160,20 @@ export default function BordeauxPage() {
               Bordeaux est l&apos;une des villes les plus dynamiques de France, avec un marché immobilier en constante évolution. La métropole bordelaise attire de nombreux acquéreurs et investisseurs, tant pour les résidences principales que pour les investissements locatifs. Le parc immobilier bordelais est très diversifié : maisons de prestige du XVIIIe siècle, villas modernes en périphérie, appartements haussmanniens dans le centre-ville, ainsi que des bâtiments contemporains aux normes actuelles. Cette diversité architecturale implique des exigences diagnostiques strictes, notamment concernant l&apos;amiante, le plomb et la performance énergétique. Pour les biens anciens (construction antérieure à 1997), les diagnostics amiante et plomb sont particulièrement critiques. Les appartements en copropriété, très nombreux à Bordeaux, nécessitent un diagnostic de surface Loi Carrez précis. ENEOS HABITAT maîtrise l&apos;ensemble de ces enjeux spécifiques au marché bordelais et accompagne vendeurs et acquéreurs avec sérieux et expertise, en respectant les délais serrés souvent imposés par les transactions urbaines.
             </p>
           </div>
+        </div>
+      </section>
+
+      {/* Enriched Content Section */}
+      <section className="py-16 bg-gray-50">
+        <div className="container mx-auto px-4">
+          <CityContent citySlug="bordeaux" />
+        </div>
+      </section>
+
+      {/* FAQ Section with JSON-LD */}
+      <section className="py-16 bg-white">
+        <div className="container mx-auto px-4">
+          <FAQCitySection citySlug="bordeaux" cityName="Bordeaux" />
         </div>
       </section>
 

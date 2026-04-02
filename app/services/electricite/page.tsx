@@ -4,6 +4,9 @@ import { ServicePageTemplate } from "@/components/service-page-template"
 export const metadata: Metadata = {
   title: "Diagnostic Électricité | ENEOS HABITAT",
   description: "Réalisez votre diagnostic électricité avec ENEOS HABITAT. Obligatoire pour les installations de plus de 15 ans. Devis gratuit, intervention rapide en Gironde.",
+  alternates: {
+    canonical: "https://www.eneoshabitat.fr/services/electricite"
+  }
 }
 
 const electriciteService = {

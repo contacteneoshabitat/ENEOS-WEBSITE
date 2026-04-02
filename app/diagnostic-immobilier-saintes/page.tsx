@@ -1,19 +1,23 @@
 import type { Metadata } from 'next'
-import Image from "next/image"
-import Link from "next/link"
-import { Button } from "@/components/ui/button"
-import { CheckCircle, ArrowRight, MapPin } from "lucide-react"
+import { CityPageTemplate } from '@/components/city-page-template'
 
 export const metadata: Metadata = {
   title: "Diagnostic immobilier Saintes | ENEOS HABITAT — Gironde",
-  description: "ENEOS HABITAT intervient à Saintes pour tous vos diagnostics immobiliers obligatoires. DPE, Amiante, Plomb, Électricité, Gaz. Intervention sous 48h. Devis gratuit en ligne."
+  description: "ENEOS HABITAT intervient à Saintes pour tous vos diagnostics immobiliers obligatoires. DPE, Amiante, Plomb, Électricité, Gaz. Intervention sous 48h. Devis gratuit en ligne.",
+  alternates: {
+    canonical: "https://www.eneoshabitat.fr/diagnostic-immobilier-saintes"
+  }
 }
 
 export default function SaintesPage() {
   return (
-    <div className="min-h-screen bg-background">
-      {/* Hero Section */}
-      <section className="relative py-20 px-4 md:px-6 lg:px-8 bg-gradient-to-b from-slate-50 to-white">
+    <CityPageTemplate
+      cityName="Saintes"
+      citySlug="saintes"
+      metaDescription="ENEOS HABITAT intervient à Saintes pour tous vos diagnostics immobiliers obligatoires."
+    />
+  )
+}
         <div className="max-w-6xl mx-auto">
           <div className="text-center space-y-6">
             <h1 className="text-4xl md:text-5xl font-bold text-foreground">

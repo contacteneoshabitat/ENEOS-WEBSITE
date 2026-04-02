@@ -4,6 +4,9 @@ import { ServicePageTemplate } from "@/components/service-page-template"
 export const metadata: Metadata = {
   title: "Diagnostic Gaz | ENEOS HABITAT",
   description: "Réalisez votre diagnostic gaz avec ENEOS HABITAT. Obligatoire pour les installations de plus de 15 ans. Devis gratuit, intervention rapide en Gironde.",
+  alternates: {
+    canonical: "https://www.eneoshabitat.fr/services/gaz"
+  }
 }
 
 const gazService = {

@@ -4,6 +4,9 @@ import { ServicePageTemplate } from "@/components/service-page-template"
 export const metadata: Metadata = {
   title: "ERP - État des Risques et Pollutions | ENEOS HABITAT",
   description: "Obtenez votre ERP (État des Risques et Pollutions) avec ENEOS HABITAT. Obligatoire pour toute vente ou location. Devis gratuit en Gironde.",
+  alternates: {
+    canonical: "https://www.eneoshabitat.fr/services/erp"
+  }
 }
 
 const erpService = {
