@@ -6,7 +6,10 @@ import { CheckCircle, ArrowRight, MapPin } from "lucide-react"
 
 export const metadata: Metadata = {
   title: "Diagnostic immobilier Blaye | ENEOS HABITAT — Gironde",
-  description: "ENEOS HABITAT intervient à Blaye pour tous vos diagnostics immobiliers obligatoires. DPE, Amiante, Plomb, Électricité, Gaz. Intervention sous 48h. Devis gratuit en ligne."
+  description: "ENEOS HABITAT intervient à Blaye pour tous vos diagnostics immobiliers obligatoires. DPE, Amiante, Plomb, Électricité, Gaz. Intervention sous 48h. Devis gratuit en ligne.",
+  alternates: {
+    canonical: "https://www.eneoshabitat.fr/diagnostic-immobilier-blaye"
+  }
 }
 
 export default function BlayePage() {

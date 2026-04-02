@@ -6,7 +6,10 @@ import { CheckCircle, ArrowRight, MapPin, Clock, Award } from "lucide-react"
 
 export const metadata: Metadata = {
   title: "Diagnostic immobilier Mérignac | ENEOS HABITAT — Gironde",
-  description: "ENEOS HABITAT intervient à Mérignac pour tous vos diagnostics immobiliers obligatoires. DPE, Amiante, Plomb, Électricité, Gaz. Intervention sous 48h. Devis gratuit en ligne."
+  description: "ENEOS HABITAT intervient à Mérignac pour tous vos diagnostics immobiliers obligatoires. DPE, Amiante, Plomb, Électricité, Gaz. Intervention sous 48h. Devis gratuit en ligne.",
+  alternates: {
+    canonical: "https://www.eneoshabitat.fr/diagnostic-immobilier-merignac"
+  }
 }
 
 const services = [

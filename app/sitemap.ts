@@ -40,5 +40,10 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${baseUrl}/diagnostic-immobilier-royan`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.8 },
     { url: `${baseUrl}/diagnostic-immobilier-cognac`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.8 },
     { url: `${baseUrl}/diagnostic-immobilier-bergerac`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.8 },
+    { url: `${baseUrl}/services/audit-energetique`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.8 },
+    { url: `${baseUrl}/blog`, lastModified: new Date(), changeFrequency: 'weekly', priority: 0.8 },
+    { url: `${baseUrl}/blog/guide-complet-dpe`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.7 },
+    { url: `${baseUrl}/blog/diagnostics-immobiliers-arcachon`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.7 },
+    { url: `${baseUrl}/blog/faq-diagnostics-immobiliers`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.7 },
   ]
 }

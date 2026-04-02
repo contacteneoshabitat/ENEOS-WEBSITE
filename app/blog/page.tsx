@@ -6,7 +6,10 @@ import { articles } from '@/lib/articles'
 
 export const metadata: Metadata = {
   title: 'Blog | ENEOS HABITAT — Articles sur les Diagnostics Immobiliers',
-  description: 'Découvrez nos articles d\'expertise sur les diagnostics immobiliers, DPE, amiante, et conseils pour vendre ou louer votre bien immobilier en Gironde.'
+  description: 'Découvrez nos articles d\'expertise sur les diagnostics immobiliers, DPE, amiante, et conseils pour vendre ou louer votre bien immobilier en Gironde.',
+  alternates: {
+    canonical: "https://www.eneoshabitat.fr/blog"
+  }
 }
 
 export default function BlogPage() {
