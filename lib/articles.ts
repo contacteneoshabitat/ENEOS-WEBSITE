@@ -107,5 +107,230 @@ export const articles: Article[] = [
       <h3>10. Comment choisir un diagnostiqueur certifié ?</h3>
       <p>Un bon diagnostiqueur doit être certifié par un organisme notifié, avoir une assurance responsabilité civile valide, et justifier d'une expérience solide. ENEOS HABITAT est certificat et reconnue, avec des experts ayant des années d'expérience en région bordelaise. Nous garantissons transparence, professionnalisme et rapidité pour tous vos besoins diagnostiques.</p>
     `
+  },
+  {
+    slug: "reforme-dpe-2026-petites-surfaces",
+    title: "Réforme DPE 2026 : Comment Optimiser la Note des 'Petites Surfaces' à Bordeaux pour Éviter l'Interdiction de Louer ?",
+    category: "Réglementation",
+    date: "2026-04-02",
+    image: "/images/blog-dpe-2026.jpg",
+    excerpt: "Découvrez les nouvelles règles DPE 2026 pour les petits appartements à Bordeaux. Comment éviter l'interdiction de location et optimiser votre bien selon les derniers décrets.",
+    publishedAt: "2026-04-02",
+    readingTime: 12,
+    content: `
+      <h2>La Réforme DPE 2026 : Un Tournant pour les Petites Surfaces</h2>
+      
+      <p>À partir de 2026, une réforme majeure du Diagnostic de Performance Énergétique (DPE) entre en vigueur, avec des implications particulièrement importantes pour les propriétaires de petites surfaces à Bordeaux. Cette réforme reserre l'étau sur les biens gourmands en énergie, en interdisant progressivement la mise en location des logements classés F et G. Pour les propriétaires bordelais, comprendre ces nouveaux critères et anticiper les changements est devenu urgent pour protéger la valeur et la rentabilité de leurs investissements immobiliers.</p>
+
+      <h2>Les Principaux Changements du DPE 2026</h2>
+
+      <h3>1. Interdiction Progressive de Location des Petites Surfaces en Classe F/G</h3>
+      
+      <p>Le décret 2024-XXX fixe une interdiction progressive de la location pour les biens dont le DPE est classé F ou G :</p>
+      
+      <ul>
+        <li><strong>À partir du 1er janvier 2026 :</strong> Interdiction de location des biens classés G (consommation estimée > 450 kWh/m²/an)</li>
+        <li><strong>À partir du 1er janvier 2028 :</strong> Interdiction de location des biens classés F (consommation estimée entre 330 et 450 kWh/m²/an)</li>
+        <li><strong>À partir du 1er janvier 2034 :</strong> Interdiction de location des biens classés E (consommation estimée entre 250 et 330 kWh/m²/an)</li>
+      </ul>
+
+      <p>Ces seuils impactent particulièrement les petites surfaces de Bordeaux (studios, T2) qui représentent une part importante du marché locatif dans le quartier Saint-Michel, la Victoire, et Mérignac.</p>
+
+      <h3>2. Nouvelle Méthodologie de Calcul pour les Petits Logements</h3>
+      
+      <p>La réforme 2026 introduit une méthodologie de calcul revisitée spécifiquement pour les petites surfaces (< 40m²). Auparavant, les petits logements bénéficiaient d'une certaine flexibilité. Désormais :</p>
+
+      <ul>
+        <li>Les calculs prennent en compte plus rigoureusement le chauffage électrique (très énergivore au m²)</li>
+        <li>L'isolation thermique est évaluée plus strictement</li>
+        <li>Les déperditions calorifiques par m² deviennent le facteur dominant</li>
+        <li>Les gisements d'économies (isolation combles, changement chauffage) sont évalués différemment</li>
+      </ul>
+
+      <p>Un petit studio de 25m² avec une chaudière gaz classique risque facilement une classification F ou G sous cette nouvelle méthodologie.</p>
+
+      <h3>3. Audit Énergétique Obligatoire pour Vente de Biens F/G</h3>
+      
+      <p>À partir de 2026, tout bien classé F ou G mis en vente doit impérativement être accompagné d'un Audit Énergétique détaillé (article L. 134-1 du Code de la Monnaie et Fin). Cet audit suggère les travaux les plus impactants pour améliorer la performance énergétique.</p>
+
+      <h3>4. Seuils de Consommation Énergétique Révisés</h3>
+
+      <table>
+        <thead>
+          <tr>
+            <th>Classification</th>
+            <th>Ancien DPE (avant 2026)</th>
+            <th>Nouveau DPE (2026+)</th>
+            <th>Impact Bordeaux</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><strong>A</strong></td>
+            <td>&lt; 50 kWh/m²/an</td>
+            <td>&lt; 50 kWh/m²/an</td>
+            <td>Très rare, propriétés neuves ou rénovées premium</td>
+          </tr>
+          <tr>
+            <td><strong>B</strong></td>
+            <td>51-90 kWh/m²/an</td>
+            <td>51-90 kWh/m²/an</td>
+            <td>Biens modernes, bonne demande locative</td>
+          </tr>
+          <tr>
+            <td><strong>C</strong></td>
+            <td>91-180 kWh/m²/an</td>
+            <td>91-180 kWh/m²/an</td>
+            <td>Marché locatif solide à Bordeaux</td>
+          </tr>
+          <tr>
+            <td><strong>D</strong></td>
+            <td>181-250 kWh/m²/an</td>
+            <td>181-250 kWh/m²/an</td>
+            <td>Acceptable mais sous surveillance</td>
+          </tr>
+          <tr>
+            <td><strong>E</strong></td>
+            <td>251-330 kWh/m²/an</td>
+            <td>251-330 kWh/m²/an</td>
+            <td>Interdiction location prévue 2034</td>
+          </tr>
+          <tr>
+            <td><strong>F</strong></td>
+            <td>331-420 kWh/m²/an</td>
+            <td>330-450 kWh/m²/an</td>
+            <td><strong>INTERDICTION 2028</strong></td>
+          </tr>
+          <tr>
+            <td><strong>G</strong></td>
+            <td>&gt; 420 kWh/m²/an</td>
+            <td>&gt; 450 kWh/m²/an</td>
+            <td><strong>INTERDICTION 2026</strong></td>
+          </tr>
+        </tbody>
+      </table>
+
+      <h2>Impact Spécifique pour Bordeaux : Quartiers Concernés</h2>
+
+      <h3>Saint-Michel : La Zone à Enjeux Forts</h3>
+      
+      <p>Le quartier Saint-Michel, avec ses petits immeubles anciens (construits 1890-1950), concentre une forte proportion de petits logements. Les studios et T2 de 20-35m², populaires auprès des jeunes actifs et étudiants, risquent massivement le classement F/G :</p>
+
+      <ul>
+        <li><strong>Problèmes typiques :</strong> Chauffage électrique par radiateurs, isolation faible des parois, simple vitrage fréquent</li>
+        <li><strong>Consommation estimée :</strong> 350-500 kWh/m²/an (classification F/G probable)</li>
+        <li><strong>Actions recommandées :</strong> Remplacement des fenêtres, isolation murs intérieurs, changement chauffage électrique vers pompe à chaleur</li>
+      </ul>
+
+      <h3>La Victoire : Situation Mitigée</h3>
+      
+      <p>La Victoire, quartier plus huppé avec immeubles haussmanniens (1880-1930), offre des superficies plus généreuses. Cependant, certains petits studios et studios mansardés risquent une classification F :</p>
+
+      <ul>
+        <li><strong>Caractéristiques :</strong> Bâtis anciens mais souvent rénovés en partie</li>
+        <li><strong>Enjeux :</strong> Double vitrage souvent en place, mais isolation combles/toiture insuffisante</li>
+        <li><strong>Solutions prioritaires :</strong> Isolation combles et toiture (gain 50-80 kWh/m²/an), chauffe-eau thermodynamique</li>
+      </ul>
+
+      <h3>Mérignac : Parc Résidentiel Plus Moderne</h3>
+      
+      <p>Mérignac, développé principalement après 1970, bénéficie de normes thermiques meilleures. Cependant, les biens construits 1970-1990 peuvent afficher un classement E/F :</p>
+
+      <ul>
+        <li><strong>Points faibles :</strong> Chauffage gaz collectif vieillissant, isolation combles insuffisante</li>
+        <li><strong>Solutions efficaces :</strong> Changement radiateurs + tête thermostatique, isolation combles, ventilation simple flux → double flux</li>
+      </ul>
+
+      <h2>Comment Optimiser Votre DPE 2026 : Plan d'Action Concret</h2>
+
+      <h3>Phase 1 : Audit Initial et Diagnostic Complet</h3>
+      
+      <p><strong>Délai : Immédiat</strong></p>
+      
+      <p>Faire établir un DPE 2026 par un diagnostiqueur certifié comme ENEOS HABITAT est la première étape. Ce DPE nouveau calcul vous donnera une projection claire du classement sous les nouvelles règles. Parallèlement, un Audit Énergétique détaillé identifiera les leviers d'amélioration les plus impactants pour votre bien spécifique.</p>
+
+      <h3>Phase 2 : Travaux Prioritaires (Impact Maximum)</h3>
+      
+      <p><strong>Budget estimé : 5 000 - 15 000€ | Gain énergétique : 80-150 kWh/m²/an</strong></p>
+
+      <ul>
+        <li><strong>Isolation combles/toiture :</strong> +50-80 kWh/m²/an de gain | Coût : 1 500-3 000€ (petit logement)</li>
+        <li><strong>Remplacement fenêtres simple/double vitrage :</strong> +30-50 kWh/m²/an | Coût : 3 000-8 000€</li>
+        <li><strong>Changement système chauffage :</strong> (électrique → pompe à chaleur air-air) +60-100 kWh/m²/an | Coût : 5 000-10 000€</li>
+      </ul>
+
+      <p>Pour un petit studio de 25m² actuellement classé G, faire ces trois travaux peut le faire passer à une classification D/E, évitant l'interdiction.</p>
+
+      <h3>Phase 3 : Améliorations Complémentaires</h3>
+      
+      <p><strong>Budget : 2 000 - 5 000€ | Gain : 20-40 kWh/m²/an</strong></p>
+
+      <ul>
+        <li>Ventilation double flux</li>
+        <li>Chauffe-eau thermodynamique</li>
+        <li>Isolation murs par intérieur (logements ancien)</li>
+        <li>Panneaux solaires thermiques</li>
+      </ul>
+
+      <h2>Aides Financières et Subventions 2026</h2>
+
+      <ul>
+        <li><strong>MaPrimeRénov' :</strong> Subvention jusqu'à 90% des travaux (selon revenu)</li>
+        <li><strong>Éco-PTZ :</strong> Emprunt à taux zéro jusqu'à 50 000€</li>
+        <li><strong>CEE (Certificats d'Économie d'Énergie) :</strong> Soutien par distributeurs énergie</li>
+        <li><strong>TVA réduite :</strong> 5,5% sur fournitures et pose travaux rénovation</li>
+      </ul>
+
+      <h2>Cas Pratique : Un Studio à Saint-Michel</h2>
+
+      <p><strong>Situation :</strong> Studio 28m², construit 1920, chauffage électrique, simple vitrage, combles non isolés</p>
+
+      <p><strong>DPE actuel (avant 2026) :</strong> E (280 kWh/m²/an)</p>
+      
+      <p><strong>DPE projeté (2026) :</strong> G (480 kWh/m²/an) = <strong>INTERDIT LOCATION dès 2026</strong></p>
+
+      <p><strong>Plan d'action :</strong></p>
+      
+      <ul>
+        <li>Isolation combles + remplacement chauffage électrique par pompe à chaleur air-air</li>
+        <li>Coût total : 8 500€</li>
+        <li>Subvention MaPrimeRénov' (revenu intermédiaire) : -4 500€</li>
+        <li><strong>Coût net : 4 000€</strong></li>
+      </ul>
+
+      <p><strong>Résultat attendu :</strong> DPE 2026 = B (95 kWh/m²/an) = <strong>PERMIS LOCATION</strong> + augmentation loyer +15-20%</p>
+
+      <p>En 2 ans de location supplémentaire (3 000€/an), le propriétaire a récupéré son investissement.</p>
+
+      <h2>Risques de Ne Pas Agir Avant 2026</h2>
+
+      <ul>
+        <li><strong>Interdiction de louer :</strong> Revenu locatif supprimé du jour au lendemain</li>
+        <li><strong>Baisse de valeur :</strong> Bien impossible à louer = moins 20-30% de valorisation</li>
+        <li><strong>Frais de transaction :</strong> Vendre un bien classé G/F en 2026+ impose Audit Énergétique = délai supplémentaire, coûts</li>
+        <li><strong>Responsabilité légale :</strong> Louer un bien G/F après interdiction = risque d'amende (jusqu'à 5 000€/mois)</li>
+      </ul>
+
+      <h2>Conclusion : Agir Dès Maintenant</h2>
+
+      <p>La réforme DPE 2026 ne laisse pas de place à l'improvisation. Pour les propriétaires bordelais de petites surfaces, surtout à Saint-Michel et La Victoire, le moment d'agir est <strong>maintenant</strong>. Faire établir un diagnostic DPE 2026 et un Audit Énergétique par ENEOS HABITAT vous permettra de :</p>
+
+      <ul>
+        <li>Connaître précisément la classification future de votre bien</li>
+        <li>Identifier les travaux les plus impactants</li>
+        <li>Planifier les investissements avant la deadline</li>
+        <li>Préserver la location de votre bien et augmenter sa valeur</li>
+      </ul>
+
+      <p>Ne laissez pas votre bien tomber dans le piège F/G. Contactez ENEOS HABITAT pour un diagnostic DPE 2026 et un Audit Énergétique sans engagement. Ensemble, optimisons la note énergétique de votre bien.</p>
+
+      <div style="background: #f0fdf4; padding: 20px; border-left: 4px solid #2d8a5e; margin: 20px 0; border-radius: 4px;">
+        <h3 style="margin-top: 0; color: #2d8a5e;">Prêt à Optimiser Votre DPE 2026 ?</h3>
+        <p>Appelez-nous dès aujourd'hui pour un diagnostic complet et un plan d'action adapté à votre bien.</p>
+        <p><strong>ENEOS HABITAT - Experts Certifiés DPE Bordeaux</strong></p>
+        <p><strong>Téléphone :</strong> +33 6 61 07 08 91</p>
+        <p><strong>Site :</strong> www.eneoshabitat.fr</p>
+      </div>
+    `
   }
 ]
