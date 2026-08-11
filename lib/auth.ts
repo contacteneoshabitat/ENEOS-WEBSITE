@@ -9,7 +9,7 @@ export const auth = betterAuth({
       ? `https://${process.env.VERCEL_PROJECT_PRODUCTION_URL}`
       : process.env.VERCEL_URL
         ? `https://${process.env.VERCEL_URL}`
-        : process.env.V0_RUNTIME_URL ?? 'http://localhost:3000'),
+        : process.env.URL ?? process.env.DEPLOY_PRIME_URL ?? process.env.V0_RUNTIME_URL),
   emailAndPassword: {
     enabled: true,
     autoSignIn: true,
